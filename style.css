@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+.main{
+    position: relative;
+    overflow: hidden;
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: red;
+}
+.page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page1>nav{
+    height: 12vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+nav>img{
+    height:9vh;
+    margin-top: 1.7vh;
+    width: 80px;
+}
+.right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-family: a;
+    font-size: 14px;
+}
+.bottom{
+    position: absolute;
+    bottom: 5%;
+    left: 12%;
+    height: 35vh;
+    width: 50vw;
+    /* background-color: aqua; */
+}
+.bottom h1{
+    font-family: a;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+    color: aliceblue;
+}
+.bottom-page2{
+    position: absolute;
+    bottom: 0;
+    height: 35%;
+    width: 100%;
+    /* background-color: black; */
+}
+.bottom-page2{
+    font-family: a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.bottom-page2>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: aliceblue;
+    /* color: black; */
+
+}
+.bottom-page2>h3{
+    margin-top: 5vh;
+    font-weight: 800;
+    color: rgb(225, 224, 225);
+}
+.bottom-page2>h2{
+    margin-top: 5vh;
+    color: antiquewhite;
+}
+span{
+    color: teal;
+    font-weight: 900;
+}
+.page2{
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+}
+.page2>h1{
+    padding-top: 4vh;
+    font-size: xx-large;
+    color: teal;
+    font-weight: 900;
+    text-align: center;
+}
+.page2>h3{
+    padding: 20px 20px;
+    margin-top: 7vh;
+    word-spacing: 5px;
+}
+.page3{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    margin-left: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.page3 img{
+    height: 40vh;
+    width: 25vw;
+    margin-left: 45px;
+}
+.page3 h3{
+    text-align: center;
+    font-family: a;
+    font-weight: 800;
+}
+.tent1{
+    height: 68vh;
+    width: 30vw;
+}
+.tent2{
+    height: 68vh;
+    width: 30vw;
+}
+.tent3{
+    height: 68vh;
+    width: 30vw;
+}
+.page3 p{
+    font-weight: 600;
+    padding: 20 20px;
+    padding-top: 2vh;
+}
+.page3 span{
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(94, 0, 183);
+    padding-left: 5vw;
+}
